@@ -1,0 +1,23 @@
+/***** RIPPLE EFFECT ON MOUSEOVER Section *****/
+.ripple {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(226, 26, 26, 0.4);
+    animation: ripple 0.6s linear infinite;
+}
+
+@keyframes ripple {
+    0% {
+        /* transform: scale(1); */
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(10);
+        opacity: 0;
+    }
+}
+
+/***** End Section *****/
